@@ -1,4 +1,6 @@
-# SmartThings Edge driver for Linky TIC module
+# SmartThings Edge driver for ZLinky TIC module
+
+Module is available here: https://lixee.fr/produits/37-zigate-usb-ttl-3770014375148.html
 
 Contribution are welcome
 
