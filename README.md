@@ -2,6 +2,7 @@
 
 Module is available here: https://lixee.fr/produits/37-zigate-usb-ttl-3770014375148.html
 
+Installation: https://community.smartthings.com/t/st-edge-zlinky-tic/254857
 
 Contribution are welcome
 
