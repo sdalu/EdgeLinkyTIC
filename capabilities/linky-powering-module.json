@@ -1,0 +1,23 @@
+{
+    "name": "Linky powering module",
+    "attributes": {
+	"voltage": {
+	    "schema": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "value": {
+			"type": "number"
+		    },
+		    "unit": {
+			"type": "string",
+			"enum": ["mV", "V"],
+			"default": "V"
+		    }
+		},
+		"required": ["value"]
+	    }
+	}
+    },
+    "commands": {}
+}

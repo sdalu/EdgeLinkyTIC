@@ -1,0 +1,31 @@
+{
+    "detailView":[
+	{
+            "label": "Current",
+            "displayType":"state",
+	    "state": {
+		"label": "{{current.value}} {{current.unit}}",
+		"unit": "current.unit"
+	    }	  
+	},
+	{
+            "label": "Voltage",
+            "displayType":"state",
+	    "state": {
+		"label": "{{voltage.value}} {{voltage.unit}}",
+		"unit": "voltage.unit"
+	    }	  
+	},
+	{
+            "label":"Apparent power",
+            "displayType":"state",
+	    "state": {
+		"label": "{{power.value}} {{power.unit}}",
+		"unit": "power.unit"
+	    }	  
+	}
+	
+    ],
+    "id":"stormachieve25639.instantaneous",
+    "version":1
+}

@@ -1,0 +1,14 @@
+{
+    "detailView":[
+	{
+            "label":"Voltage",
+            "displayType":"state",
+	    "state": {
+		"label": "{{voltage.value}}",
+		"unit": "voltage.unit"
+	    }	  
+	}
+    ],
+    "id":"stormachieve25639.linkyPoweringModule",
+    "version":1
+}

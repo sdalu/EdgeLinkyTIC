@@ -1,0 +1,7 @@
+zigbeeManufacturer:
+  - id: "LiXee/ ZLinky_TIC"
+    deviceLabel: "ZLinky TIC"
+    manufacturer: 'LiXee'
+    model: 'ZLinky_TIC'
+    deviceProfileName: zigbee-zlinky
+    

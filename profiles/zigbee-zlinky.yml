@@ -1,0 +1,21 @@
+name: zigbee-zlinky
+components:
+- id: main
+  capabilities:
+  - id: refresh
+    version: 1
+  - id: energyMeter
+    version: 1
+  - id: "stormachieve25639.instantaneous"
+    version: 1
+  - id: "stormachieve25639.subscription"
+    version: 1
+- id: linky
+  capabilities:
+  - id: "stormachieve25639.linkyMode"
+    version: 1
+  - id: "stormachieve25639.linkySerial"
+    version: 1
+  - id: "stormachieve25639.linkyPoweringModule"
+    version: 1
+      

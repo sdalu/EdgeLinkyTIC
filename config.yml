@@ -1,0 +1,4 @@
+name: 'Zigbee ZLinky'
+packageKey: 'zigbee-zlinky'
+permissions:
+  zigbee: {}

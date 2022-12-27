@@ -1,0 +1,21 @@
+{
+    "detailView": [
+	{
+            "label":"Power",
+            "displayType":"state",
+	    "state": {
+		"label": "{{power.value}} {{power.unit}}",
+		"unit": "power.unit"
+	    }	  
+	},
+	{
+            "label": "Tarif",
+	    "displayType": "state",
+	    "state": {
+		"label": "{{mode.value}}"
+	    }
+	}
+    ],
+    "id":"stormachieve25639.subscription",
+    "version":1
+}

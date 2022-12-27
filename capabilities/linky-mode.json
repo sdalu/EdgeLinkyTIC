@@ -1,0 +1,20 @@
+{
+    "name": "Linky Mode",
+    "attributes": {
+	"mode": {
+	    "schema": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "value": {
+			"type": "integer",
+			"minimum": 0,
+			"maximum": 7
+		    }
+		},
+		"required": ["value"]
+	    }
+	}
+    },
+    "commands": {}
+}

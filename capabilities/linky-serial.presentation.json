@@ -1,0 +1,13 @@
+{
+    "detailView":[
+	{
+            "label": "Serial",
+	    "displayType": "state",
+	    "state": {
+		"label": "{{serial.value}}"
+	    }
+	}
+    ],
+    "id":"stormachieve25639.linkySerial",
+    "version":1
+}

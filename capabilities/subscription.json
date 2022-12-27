@@ -1,0 +1,35 @@
+{
+    "name": "Subscription",
+    "attributes": {
+	"power": {
+	    "schema": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "value": {
+			"type": "number"
+		    },
+		    "unit": {
+			"type": "string",
+			"enum": ["kVA", "VA"],
+			"default": "VA"
+		    }
+		},
+		"required": ["value"]
+	    }
+	},
+	"mode": {
+	    "schema": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "value": {
+			"type": "string"
+		    }
+		},
+		"required": ["value"]
+	    }
+	}
+    },
+    "commands": {}
+}

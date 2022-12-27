@@ -1,0 +1,57 @@
+{
+    "name": "Instantaneous",
+    "attributes": {
+	"current": {
+	    "schema": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "value": {
+			"type": "number"
+		    },
+		    "unit": {
+			"type": "string",
+			"enum": [ "A" ],
+			"default": "A"
+		    }
+		},
+		"required": ["value"]
+	    }
+	},
+	"voltage": {
+	    "schema": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "value": {
+			"type": "number"
+		    },
+		    "unit": {
+			"type": "string",
+			"enum": [ "V" ],
+			"default": "V"
+		    }
+		},
+		"required": ["value"]
+	    }
+	},
+	"power": {
+	    "schema": {
+		"type": "object",
+		"additionalProperties": false,
+		"properties": {
+		    "value": {
+			"type": "number"
+		    },
+		    "unit": {
+			"type": "string",
+			"enum": ["VA"],
+			"default": "VA"
+		    }
+		},
+		"required": ["value"]
+	    }
+	}
+    },
+    "commands": {}
+}
